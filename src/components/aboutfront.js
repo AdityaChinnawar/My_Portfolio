@@ -21,7 +21,7 @@ const Aboutfront = () => {
        <p>Hello, my name is</p>
         <h1>Aditya Chinnawar</h1>
         <p>And I'm am a <span style={{fontWeight:600}}>{Typeeffect}</span></p>
-        <p style={{fontSize:"20px", fontWeight:"150", textAlign:"justify",width:"100%",padding:"10px",paddingBottom:"35px", paddingLeft:"0"}}>Hello, I'm Aditya Chinnawar, a driven Web Developer blending a foundation 
+        <p style={{fontSize:"20px", fontWeight:"150", textAlign:"justify",width:"100%",padding:"5px",paddingBottom:"35px",paddingRight:"0px", paddingLeft:"0px"}}>Hello, I'm Aditya Chinnawar, a driven Web Developer blending a foundation 
            in electronics and telecommunication engineering with a passion for elegant 
            design and coding. With a knack for creative problem-solving, I bring a unique 
            fusion of technical expertise and aesthetic sensibility to web development. 

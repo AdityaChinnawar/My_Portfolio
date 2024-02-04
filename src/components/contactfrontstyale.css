@@ -37,6 +37,9 @@
     font-size: 2rem;
     margin-bottom: 0;
 }
+.container{
+    margin: 1rem;
+}
 .container h1{
     margin: 1rem;
     font-size: 2rem;

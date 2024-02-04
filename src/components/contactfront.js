@@ -47,7 +47,7 @@ export const Contactfront = () => {
         <div className='details'>
         <div className='contact'>
         <h1 style={{margin:"2rem"}}>Get in touch</h1> 
-        <p style={{fontSize:"20px", textAlign:"justify", width:"80%", paddingBottom:"1rem"}}>If you have any questions or would like to discuss a project, feel free to reach out. I'd love to hear from you!</p>  
+        <p style={{fontSize:"20px", textAlign:"justify", width:"90%", paddingBottom:"1rem",padding:"1rem"}}>If you have any questions or would like to discuss a project, feel free to reach out. I'd love to hear from you!</p>  
         <div className='deatailicon'><div><IoPersonSharp size={40} style={{cursor:"pointer"}}/></div>
         <div><p style={{fontSize:"20px",fontWeight:"700", paddingLeft:"30px"}}>Name</p><p style={{fontSize:"20px",paddingLeft:"30px"}}>Aditya Chinnawar</p></div></div>
         <div className='deatailicon'><div><FaPhoneAlt size={40} style={{cursor:"pointer"}} onClick={() => copyToClipboard('+91 8208132592')} /></div>
