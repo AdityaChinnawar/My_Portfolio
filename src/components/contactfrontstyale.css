@@ -1,0 +1,94 @@
+.da{
+    height: 90px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    margin: 2rem;
+    width: 50%;
+   
+    justify-content: space-around;
+}
+.deatailicon{
+    display: flex;
+    margin: 1rem;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    margin: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.container h1{
+    margin: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.container .btn{
+    border-radius: 25px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: darkgrey;
+    opacity: 0.5;
+    align-items: center;
+    text-align: center;
+}
+textarea{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    width: 620px;
+    background-color: darkgrey;
+    opacity: 0.5;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    text-align: start;
+}
+@media screen and (max-width : 640px) {
+    input{
+        width: 200px;
+        color: white;
+        height: 20px;
+        font-size: 1.2rem;
+        margin: 5px;
+        border-radius: 20px;
+        height: 30px;
+    }
+    textarea{
+    width: 200px;
+    margin: 5px;
+    width: 410px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+}

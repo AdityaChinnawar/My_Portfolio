@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: black;
+}
+.icons{
+    align-content: space-between;
+    padding: 1rem;   
+    background-color: transparent; 
+}
+.pa{
+    size: 40px;
+}
+

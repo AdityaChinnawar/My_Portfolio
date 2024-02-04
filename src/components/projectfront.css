@@ -1,0 +1,58 @@
+.da{
+    height: 120px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+img{
+    height: 120px;
+    width: 200px;
+}
+.img{
+    border-radius: 5px;
+}
+h2{
+    background-color: transparent;
+}
+.card p{
+    font-size: 15px;
+    text-align: justify;
+    width: 80%;
+    margin: 1.7rem;
+    margin-top: 0px;
+}
+.card{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    height: 320px;
+    cursor: pointer;
+    width: 300px;
+    margin: 50px auto;
+    background: rgb(61, 60, 60);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgba(240, 230, 230, 1);
+    border-radius: 14px;
+}
+.projectcard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+@media screen and (max-width : 640px) {
+    .projectcard{
+      display: flex;
+      flex-direction: column;
+    }
+}

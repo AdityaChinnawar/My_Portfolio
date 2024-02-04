@@ -1,0 +1,95 @@
+.da{
+    height: 120px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.box {
+  height: 250px;
+  width: 250px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 0 1px 4px rgba(224, 212, 212, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(236, 206, 206, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(248, 234, 234, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.skills h1:hover{
+  text-decoration: underline;
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-left: 11rem;      
+    margin-right: 11rem;
+}
+@media screen and (max-width : 1040px) {
+    .skills{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+}
+@media screen and (max-width : 640px) {
+      .skills{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+      }
+}
+.progressbar{
+    padding: 40px;
+}
+.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+  }
+  .CircularProgressbar .CircularProgressbar-path {
+    stroke:  #0935dc;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+    stroke-linecap: round;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: white;
+    font-size: 1rem;
+    dominant-baseline: middle;
+    text-anchor: middle;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-background {
+    fill: #d6d6d6;
+  }
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+    fill: #3e98c7;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+    fill: #fff;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+    stroke: #fff;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+    stroke: transparent;
+  }
