@@ -17,6 +17,7 @@ const Homefront = () => {
             <Link to="/About" className="btn">
                   About Me..
             </Link>
+            <p className="navigation" style={{fontSize:"13px"}}>or click on top right corner</p>
         </div>
         </div>
     </div>

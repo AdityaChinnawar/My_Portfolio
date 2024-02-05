@@ -38,6 +38,10 @@ h1{
     background-color: transparent;
     
 }
+.navigation{
+    display: none;
+    padding: 1rem;
+}
 .hero .content h1{
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
@@ -48,10 +52,12 @@ h1{
     font-weight: 400;
     background-color: transparent;
 }
+
 @media screen and (max-width : 640px) {
     .hero .content h1{
         font-size: 3rem;
     }
+    .navigation{display: block;}
     .hero .content p{
         font-size: 1.4rem;
     }
