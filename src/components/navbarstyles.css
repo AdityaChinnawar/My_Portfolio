@@ -71,4 +71,13 @@ a{
         display: initial;
         cursor: pointer;
     }
+    .hamburger :hover{
+        -webkit-box-shadow: 2px -1px 109px 10px rgba(171, 172, 164, 0.75);
+        -moz-box-shadow: 2px -1px 109px 10px rgba(173, 173, 171, 0.75);
+        height: 50px;
+        width: 50px;
+        box-shadow: 2px -1px 109px 10px rgba(181, 181, 174, 0.75);
+        transition: 0.5s;
+        background-color: transparent;
+    }
 }
