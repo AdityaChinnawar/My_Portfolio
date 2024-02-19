@@ -9,7 +9,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { AiFillLinkedin,AiFillGithub } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
-
+import swal from 'sweetalert';
 export const Contactfront = () => {
     
     const emailAddress = 'adityachinnawar82@gmail.com'
@@ -20,7 +20,7 @@ export const Contactfront = () => {
         textarea.select();
         document.execCommand('copy');
         document.body.removeChild(textarea);
-        alert(`Copied to clipboard: ${text}`);
+        swal(`Copied to clipboard: ${text}`);
     };
     const openLinkInNewTab = (url, e) => {
         e.preventDefault();
