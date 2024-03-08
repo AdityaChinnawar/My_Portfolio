@@ -15,10 +15,33 @@
     margin: 1.5rem;
 }
 .mylogo:hover{
-    height: 75px;
-    width: 130px;
-    transition: 0.5s;
-}
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+} 
 .header-bg{
     background-color: #000000;
     transition: 0.5s; 
@@ -27,9 +50,12 @@
 .nav-menu{
     display: flex;
 }
-a{
+ul.nav-menu li a {
     color: white;
-    background-color: transparent;
+  }
+  
+a:hover{
+    text-decoration: underline;
 }
 .nav-menu l{
     padding: 0 1rem;

@@ -23,7 +23,7 @@ const Skillfront1 = () => {
         <div className='box'><Skillfront percentage={40} text="40%" /><h1>Node js</h1></div>
         <div className='box'><Skillfront percentage={50} text="50%" /><h1>Express js</h1></div>
         <div className='box'><Skillfront percentage={40} text="40%" /><h1>SQL</h1></div>
-        <div className='box'><Skillfront percentage={50} text="40%" /><h1>Git/Github</h1></div>
+        <div className='box'><Skillfront percentage={50} text="50%" /><h1>Git/Github</h1></div>
         <div className='box'><Skillfront percentage={60} text="60%" /><h1>Matlab</h1></div>
         </div>
     </div>

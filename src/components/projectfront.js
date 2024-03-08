@@ -4,6 +4,7 @@ import clock from "../assets/digitalclock.jpg"
 import calculator from "../assets/calculator.jpg"
 import ecommerce from "../assets/ecommerce.png"
 import portfolio from "../assets/portfolio.png"
+import chatwebsite from "../assets/chatwebsite.png"
 import car from "../assets/car.jpg"
 const Projectfront = () => {
   return (
@@ -39,7 +40,11 @@ const Projectfront = () => {
               <h2>Parallel Parking Car</h2>
               <p>Engineered an innovative parallel parking car project, showcasing precision and automation in parking maneuvers</p>
               </div>
-              
+              <div className='card'>
+              <img className="img" src={chatwebsite} alt="chatimg" style={{margin:"1rem"}}/>
+              <h2>Chat Website</h2>
+              <p>Empower multiple users to engage in real-time conversations through my dynamic chat platform. Foster seamless communication and collaboration with ease on my website.</p>
+              </div>
         </div>     
     </div>
   )
