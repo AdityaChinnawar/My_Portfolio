@@ -70,7 +70,7 @@ export const Contactfront = () => {
         </div>  
         <div className='logo'>
         <GrInstagram size={40} style={{cursor:"pointer"}}  onClick={(e) => openLinkInNewTab('https://www.instagram.com/aditya_chinnawar/', e)}/>
-        <AiFillLinkedin size={40} style={{cursor:"pointer"}} onClick={(e) => openLinkInNewTab('https://shorturl.at/jzAH8', e)}/>
+        <AiFillLinkedin size={40} style={{cursor:"pointer"}} onClick={(e) => openLinkInNewTab('https://www.linkedin.com/in/aditya-chinnawar', e)}/>
         <AiFillGithub size={40} style={{cursor:"pointer"}}  onClick={(e) => openLinkInNewTab('https://github.com/AdityaChinnawar', e)}/>
         <SiLeetcode size={40} style={{cursor:"pointer"}}  onClick={(e) => openLinkInNewTab('https://leetcode.com/AdityaChinnawar/', e)}/>
         </div>

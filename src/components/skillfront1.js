@@ -14,6 +14,7 @@ const Skillfront1 = () => {
         <div className='box'><Skillfront percentage={85} text="85%" /><h1>C/C++</h1></div>
         <div className='box'><Skillfront percentage={60} text="60%" /><h1>Java</h1></div>
         <div className='box'><Skillfront percentage={55} text="55%" /><h1>Python</h1></div>
+        <div className='box'><Skillfront percentage={80} text="80%" /><h1>DSA</h1></div>
         <div className='box'><Skillfront percentage={90} text="90%" /><h1>HTML</h1></div>
         <div className='box'><Skillfront percentage={85} text="85%" /><h1>CSS</h1></div>
         <div className='box'><Skillfront percentage={75} text="70%" /><h1>Javascript</h1></div>

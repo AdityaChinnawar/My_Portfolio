@@ -5,6 +5,7 @@
     text-align: center;
     margin-bottom: 2rem;
     cursor: pointer;
+    justify-content: center;
 }
 img{
     height: 120px;

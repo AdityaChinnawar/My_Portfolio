@@ -71,7 +71,6 @@
   .CircularProgressbar .CircularProgressbar-text {
     fill: white;
     font-size: 1rem;
-    dominant-baseline: middle;
     text-anchor: middle;
   }
   

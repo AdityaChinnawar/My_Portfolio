@@ -2,7 +2,7 @@ import "./aboutfront.css"
 import React from 'react'
 import { useTypewriter } from 'react-simple-typewriter'
 import myimage from "../assets/Adityaphoto.png"
-import resume from "../assets/Adityaresume.pdf"
+import resume from "../assets/AdityaChinnawarResume.pdf"
 const Aboutfront = () => {
     const [Typeeffect] = useTypewriter({
         words: ['Engineer','Web-Developer','Problem-Solver'],
